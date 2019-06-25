@@ -17,7 +17,7 @@ cd ../build/bin
 ```
 meshlab horse.ply 
 ```
-<img src="https://github.com/liyucheng251/Possion-Reconstruction/blob/master/img/horse.png" width=400><img src="https://github.com/liyucheng251/Possion-Reconstruction/blob/master/img/bunny.png" width=400>
+<img src="https://github.com/liyucheng251/Possion-Reconstruction/blob/master/img/horse.png" height=400>　<img src="https://github.com/liyucheng251/Possion-Reconstruction/blob/master/img/bunny.png" height=400>
 
 若要运行自己的点云，需要保证点云文件中具有法向数据
 
