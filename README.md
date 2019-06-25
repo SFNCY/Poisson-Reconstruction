@@ -1,4 +1,4 @@
-# Possion Reconstruction
+# Possion Surface Reconstruction　泊松表面重建
 [Adaptive Multigrid Solvers官网主页](http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version10.04/)
 
 本项目使用cmake在Ubuntu18.04下重新构建了Possion重建程序
