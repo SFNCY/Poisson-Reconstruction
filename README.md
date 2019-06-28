@@ -4,14 +4,14 @@
 本项目使用cmake在Ubuntu18.04下重新构建了Possion重建程序
 - 编译
 ```
-cd ScreenedPossion
+cd Possion-Reconstruction
 ./compile.sh
 ```
 
 - 运行demo
 ```
 cd ../build/bin
-./PossionRec  --in ../../ScreenedPossion/Data/horse.npts --out horse.ply --depth 10
+./PossionRec  --in ../../Possion-Reconstruction/Data/horse.npts --out horse.ply --depth 10
 ```
 - 查看重建结果（需要安装meshlab）
 ```
