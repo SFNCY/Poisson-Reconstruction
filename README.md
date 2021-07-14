@@ -11,7 +11,7 @@ cd Possion-Reconstruction
 - 运行demo
 ```
 cd ../build/bin
-./PossionRec  --in ../../Possion-Reconstruction/Data/horse.npts --out horse.ply --depth 10
+./PossionRec  --in ../../Data/horse.npts --out horse.ply --depth 10
 ```
 - 查看重建结果（需要安装meshlab）
 ```
