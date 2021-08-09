@@ -793,7 +793,7 @@ int main( int argc , char* argv[] )
 #ifdef ARRAY_DEBUG
 	WARN( "Array debugging enabled" );
 #endif // ARRAY_DEBUG
-	cmdLineParse( argc-1 , &argv[1] , params );
+	cmdLineParse(argc - 1, &argv[1], params);
 	if( MaxMemoryGB.value>0 ) SetPeakMemoryMB( MaxMemoryGB.value<<10 );
 	ThreadPool::DefaultChunkSize = ThreadChunkSize.value;
 	ThreadPool::DefaultSchedule = (ThreadPool::ScheduleType)ScheduleType.value;
